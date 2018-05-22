@@ -1,0 +1,17 @@
+{
+  "name": "getalltask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zipit": "zip -r archive.zip node_modules/ app.js package.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "mongodb": "^3.0.8",
+    "mongoose": "^5.1.1"
+  }
+}
